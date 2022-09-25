@@ -23,6 +23,10 @@ function App() {
 					handleDelete={deleteFeedback}
 				/>
 			</div>
+			<FeedbackList
+				feedback={feedback}
+				handleDelete={deleteFeedback}
+			/>
 		</>
 	);
 }
